@@ -1,0 +1,967 @@
+14:53:46 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 36: Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 55: User layout: {'meta': {'author': '', 'backcolor': '#eeeeee', 'background': None, 'name': '', 'notes': '', 'radii': '', 'switchBrand': '', 'switchMount': '', 'switchType': ''}, 'keys': [{'color': '#cccccc', 'labels': [None, None, None, None, 'Tab'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 0, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Q'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 1, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'W'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 2, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'E'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'R'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'T'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 5, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Y'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 6, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'U'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'I'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 8, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'O'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 9, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'P'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 10, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Back Space'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 11, 'y': 0, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Esc'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 0, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'A'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 1, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'S'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 2, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'D'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'F'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'G'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 5, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'H'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 6, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'J'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'K'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 8, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'L'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 9, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, ';'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 10, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, "'"], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 11, 'y': 1, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Shift'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 0, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Z'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 1, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'X'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 2, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'C'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'V'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'B'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 5, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'N'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 6, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'M'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, ','], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 8, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '.'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 9, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '/'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 10, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Return'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 11, 'y': 2, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 0, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Ctrl'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 1, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Alt'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 2, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, 'Super'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 3, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '&dArr;'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 4, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 5, 'y': 3, 'width': 2, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 2, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '&uArr;'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 7, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '&larr;'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 8, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '&darr;'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 9, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '&uarr;'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 10, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}, {'color': '#cccccc', 'labels': [None, None, None, None, '&rarr;'], 'textColor': [], 'textSize': [], 'default': {'textColor': '#000000', 'textSize': 3}, 'x': 11, 'y': 3, 'width': 1, 'height': 1, 'x2': 0, 'y2': 0, 'width2': 1, 'height2': 1, 'rotation_x': 0, 'rotation_y': 0, 'rotation_angle': 0, 'decal': False, 'ghost': False, 'stepped': False, 'nub': False, 'profile': '', 'sm': '', 'sb': '', 'st': ''}]}
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW1 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D1 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 49: Getting SW1 footprint position: (92280000, 49190000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 49: Getting D1 footprint position: (90100000, 43500000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 143: Diode position: DiodePosition(relativePosition=Point(x=-2.18, y=-5.69), orientation=180.0, side=<Side.BACK: True>)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW1 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW1 footprint position: (34525000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D1 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D1 footprint position: (32345000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW1 with D1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (30715000, 31985000), diodePadPosition: (30695000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D1:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(30695000, 28835000), (30715000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW1:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D1:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(30715000, 28855000), (30715000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW2 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW2 footprint position: (53575000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D2 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D2 footprint position: (51395000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW2 with D2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (49765000, 31985000), diodePadPosition: (49745000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D2:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(49745000, 28835000), (49765000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D2:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW2:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(49765000, 28855000), (49765000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW3 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW3 footprint position: (72625000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D3 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D3 footprint position: (70445000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW3 with D3
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (68815000, 31985000), diodePadPosition: (68795000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D3:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(68795000, 28835000), (68815000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW3:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D3:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(68815000, 28855000), (68815000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW4 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW4 footprint position: (91675000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D4 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D4 footprint position: (89495000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW4 with D4
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (99235000, 37065000), diodePadPosition: (87845000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D4:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW4:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW4: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW4:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(96075000, 37065000), (99235000, 37065000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW5 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW5 footprint position: (110725000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D5 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D5 footprint position: (108545000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW5 with D5
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (118285000, 37065000), diodePadPosition: (106895000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D5:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW5:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW5: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW5:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(115125000, 37065000), (118285000, 37065000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW6 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW6 footprint position: (129775000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D6 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D6 footprint position: (127595000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW6 with D6
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (125965000, 31985000), diodePadPosition: (125945000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D6:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(125945000, 28835000), (125965000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D6:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW6:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(125965000, 28855000), (125965000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW7 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW7 footprint position: (148825000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D7 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D7 footprint position: (146645000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW7 with D7
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (156385000, 37065000), diodePadPosition: (144995000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D7:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW7:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW7: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW7:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(153225000, 37065000), (156385000, 37065000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW8 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW8 footprint position: (167875000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D8 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D8 footprint position: (165695000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW8 with D8
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (164065000, 31985000), diodePadPosition: (164045000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D8:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(164045000, 28835000), (164065000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW8:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D8:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(164065000, 28855000), (164065000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW9 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW9 footprint position: (186925000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D9 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D9 footprint position: (184745000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW9 with D9
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (194485000, 37065000), diodePadPosition: (183095000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW9:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D9:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW9: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW9:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(191325000, 37065000), (194485000, 37065000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW10 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW10 footprint position: (205975000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D10 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D10 footprint position: (203795000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW10 with D10
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (202165000, 31985000), diodePadPosition: (202145000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D10:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202145000, 28835000), (202165000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW10:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D10:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202165000, 28855000), (202165000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW11 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW11 footprint position: (225025000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D11 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D11 footprint position: (222845000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW11 with D11
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (221215000, 31985000), diodePadPosition: (221195000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D11:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(221195000, 28835000), (221215000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D11:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW11:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(221215000, 28855000), (221215000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW12 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW12 footprint position: (244075000, 34525000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D12 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D12 footprint position: (241895000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW12 with D12
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (240265000, 31985000), diodePadPosition: (240245000, 28835000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D12:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240245000, 28835000), (240265000, 28855000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW12:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D12:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240265000, 28855000), (240265000, 31985000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW13 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW13 footprint position: (34525000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D13 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D13 footprint position: (32345000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW13 with D13
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (42085000, 56115000), diodePadPosition: (30695000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D13:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW13:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW13: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW13:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(38925000, 56115000), (42085000, 56115000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW14 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW14 footprint position: (53575000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D14 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D14 footprint position: (51395000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW14 with D14
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (61135000, 56115000), diodePadPosition: (49745000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW14:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D14:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW14: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW14:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(57975000, 56115000), (61135000, 56115000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW15 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW15 footprint position: (72625000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D15 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D15 footprint position: (70445000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW15 with D15
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (68815000, 51035000), diodePadPosition: (68795000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D15:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(68795000, 47885000), (68815000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW15:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D15:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(68815000, 47905000), (68815000, 51035000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW16 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW16 footprint position: (91675000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D16 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D16 footprint position: (89495000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW16 with D16
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (87865000, 51035000), diodePadPosition: (87845000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D16:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(87845000, 47885000), (87865000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW16:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D16:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(87865000, 47905000), (87865000, 51035000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW17 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW17 footprint position: (110725000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D17 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D17 footprint position: (108545000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW17 with D17
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (106915000, 51035000), diodePadPosition: (106895000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D17:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(106895000, 47885000), (106915000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW35:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW17:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D17:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW18 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW18 footprint position: (129775000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D18 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D18 footprint position: (127595000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW18 with D18
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (137335000, 56115000), diodePadPosition: (125945000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D18:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW18:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW18: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW18:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(134175000, 56115000), (137335000, 56115000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW19 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW19 footprint position: (148825000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D19 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D19 footprint position: (146645000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW19 with D19
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (145015000, 51035000), diodePadPosition: (144995000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D19:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(144995000, 47885000), (145015000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D19:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW19:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(145015000, 47905000), (145015000, 51035000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW20 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW20 footprint position: (167875000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D20 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D20 footprint position: (165695000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW20 with D20
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (175435000, 56115000), diodePadPosition: (164045000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW20: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW20:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D20:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW38:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW20: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW20:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(172275000, 56115000), (175435000, 56115000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW21 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW21 footprint position: (186925000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D21 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D21 footprint position: (184745000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW21 with D21
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (183115000, 51035000), diodePadPosition: (183095000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D21:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(183095000, 47885000), (183115000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW21:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D21:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(183115000, 47905000), (183115000, 51035000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW22 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW22 footprint position: (205975000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D22 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D22 footprint position: (203795000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW22 with D22
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (202165000, 51035000), diodePadPosition: (202145000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D22:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202145000, 47885000), (202165000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D22:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW22:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202165000, 47905000), (202165000, 51035000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW23 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW23 footprint position: (225025000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D23 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D23 footprint position: (222845000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW23 with D23
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (221215000, 51035000), diodePadPosition: (221195000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D23:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(221195000, 47885000), (221215000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW23:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D23:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(221215000, 47905000), (221215000, 51035000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW24 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW24 footprint position: (244075000, 53575000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D24 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D24 footprint position: (241895000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW24 with D24
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (240265000, 51035000), diodePadPosition: (240245000, 47885000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D24:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240245000, 47885000), (240265000, 47905000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D24:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW24:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240265000, 47905000), (240265000, 51035000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW25 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW25 footprint position: (34525000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D25 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D25 footprint position: (32345000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW25 with D25
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (42085000, 75165000), diodePadPosition: (30695000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW25: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW25:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D25:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW25: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW25:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(38925000, 75165000), (42085000, 75165000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW26 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW26 footprint position: (53575000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D26 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D26 footprint position: (51395000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW26 with D26
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (49765000, 70085000), diodePadPosition: (49745000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D26:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(49745000, 66935000), (49765000, 66955000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW26:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D26:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(49765000, 66955000), (49765000, 70085000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW27 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW27 footprint position: (72625000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D27 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D27 footprint position: (70445000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW27 with D27
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (80185000, 75165000), diodePadPosition: (68795000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D27:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW27:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW27: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW27:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(77025000, 75165000), (80185000, 75165000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW28 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW28 footprint position: (91675000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D28 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D28 footprint position: (89495000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW28 with D28
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (87865000, 70085000), diodePadPosition: (87845000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW39:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D28:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(87845000, 66935000), (87865000, 66955000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW39:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D28:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW28:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW29 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW29 footprint position: (110725000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D29 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D29 footprint position: (108545000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW29 with D29
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (106915000, 70085000), diodePadPosition: (106895000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D29:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(106895000, 66935000), (106915000, 66955000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW29:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D29:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(106915000, 66955000), (106915000, 70085000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW30 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW30 footprint position: (129775000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D30 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D30 footprint position: (127595000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW30 with D30
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (125965000, 70085000), diodePadPosition: (125945000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D30:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(125945000, 66935000), (125965000, 66955000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D30:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW30:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(125965000, 66955000), (125965000, 70085000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW31 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW31 footprint position: (148825000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D31 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D31 footprint position: (146645000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW31 with D31
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (156385000, 75165000), diodePadPosition: (144995000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW31: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW31:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D31:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW31: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW31:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(153225000, 75165000), (156385000, 75165000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW32 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW32 footprint position: (167875000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D32 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D32 footprint position: (165695000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW32 with D32
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (175435000, 75165000), diodePadPosition: (164045000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D32:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW32: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW32:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW32: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW32:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(172275000, 75165000), (175435000, 75165000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW33 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW33 footprint position: (186925000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D33 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D33 footprint position: (184745000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW33 with D33
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (183115000, 70085000), diodePadPosition: (183095000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D33:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(183095000, 66935000), (183115000, 66955000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D33:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW33:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(183115000, 66955000), (183115000, 70085000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW34 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW34 footprint position: (205975000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D34 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D34 footprint position: (203795000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW34 with D34
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (202165000, 70085000), diodePadPosition: (202145000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D34:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202145000, 66935000), (202165000, 66955000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW34:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D34:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202165000, 66955000), (202165000, 70085000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW35 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW35 footprint position: (225025000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D35 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D35 footprint position: (222845000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW35 with D35
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (232585000, 75165000), diodePadPosition: (221195000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D35:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW35:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW35: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW35:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(229425000, 75165000), (232585000, 75165000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW36 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW36 footprint position: (244075000, 72625000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D36 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D36 footprint position: (241895000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW36 with D36
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (240265000, 70085000), diodePadPosition: (240245000, 66935000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D36:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240245000, 66935000), (240265000, 66955000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW36:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D36:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240265000, 66955000), (240265000, 70085000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW37 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW37 footprint position: (34525000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D37 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D37 footprint position: (32345000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW37 with D37
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (30715000, 89135000), diodePadPosition: (30695000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D37:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(30695000, 85985000), (30715000, 86005000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW37:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D37:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(30715000, 86005000), (30715000, 89135000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW38 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW38 footprint position: (53575000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D38 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D38 footprint position: (51395000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW38 with D38
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (49765000, 89135000), diodePadPosition: (49745000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D38:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(49745000, 85985000), (49765000, 86005000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW38:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D38:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(49765000, 86005000), (49765000, 89135000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW39 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW39 footprint position: (72625000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D39 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D39 footprint position: (70445000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW39 with D39
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (80185000, 94215000), diodePadPosition: (68795000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D39:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW39: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW39:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW39: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW39:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(77025000, 94215000), (80185000, 94215000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW40 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW40 footprint position: (91675000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D40 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D40 footprint position: (89495000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW40 with D40
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (99235000, 94215000), diodePadPosition: (87845000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW40: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW40:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D40:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW40: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW40:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(96075000, 94215000), (99235000, 94215000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW41 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW41 footprint position: (110725000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D41 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D41 footprint position: (108545000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW41 with D41
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (106915000, 89135000), diodePadPosition: (106895000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D41:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(106895000, 85985000), (106915000, 86005000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D41:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW41:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(106915000, 86005000), (106915000, 89135000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW42 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW42 footprint position: (139300000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D42 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D42 footprint position: (137120000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW42 with D42
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (146860000, 94215000), diodePadPosition: (135470000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW42: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW42:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D42:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW42: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW42:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(143700000, 94215000), (146860000, 94215000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW43 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW43 footprint position: (167875000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D43 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D43 footprint position: (165695000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW43 with D43
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (164065000, 89135000), diodePadPosition: (164045000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D43:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(164045000, 85985000), (164065000, 86005000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D43:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW43:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(164065000, 86005000), (164065000, 89135000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW44 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW44 footprint position: (186925000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D44 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D44 footprint position: (184745000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW44 with D44
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (194485000, 94215000), diodePadPosition: (183095000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW44:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D44:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW45:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW44: - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW44:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(191325000, 94215000), (194485000, 94215000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW45 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW45 footprint position: (205975000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D45 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D45 footprint position: (203795000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW45 with D45
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (202165000, 89135000), diodePadPosition: (202145000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D45:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202145000, 85985000), (202165000, 86005000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D45:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW45:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(202165000, 86005000), (202165000, 89135000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW46 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW46 footprint position: (225025000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D46 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D46 footprint position: (222845000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW46 with D46
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (221215000, 89135000), diodePadPosition: (221195000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D46:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(221195000, 85985000), (221215000, 86005000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW46:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D46:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(221215000, 86005000), (221215000, 89135000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for SW47 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting SW47 footprint position: (244075000, 91675000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 30: Searching for D47 footprint
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 38: Setting D47 footprint position: (241895000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 90: Routing SW47 with D47
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 99: switchPadPosition: (240265000, 89135000), diodePadPosition: (240245000, 85985000)
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D47:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240245000, 85985000), (240265000, 86005000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D47:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW47:2 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (B.Cu): [(240265000, 86005000), (240265000, 89135000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW1:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW13:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW25:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW13:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW25:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(28235000, 77705000), (28235000, 77765000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW25:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW37:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(28235000, 77765000), (37065000, 86595000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW2:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(47285000, 39605000), (47285000, 39665000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW14:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW2:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(47285000, 39665000), (56115000, 48495000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW26:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW14:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW26:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(47285000, 77705000), (47285000, 77765000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW26:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW38:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(47285000, 77765000), (56115000, 86595000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW3:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(66335000, 39605000), (66335000, 39665000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW15:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW3:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(66335000, 39665000), (75165000, 48495000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW15:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW27:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW39:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW27:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW4:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(85385000, 39605000), (85385000, 39665000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW16:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW4:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(85385000, 39665000), (94215000, 48495000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW16:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW28:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW40:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW28:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW17:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW5:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW17:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(104435000, 58655000), (104435000, 58715000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW29:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW17:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(104435000, 58715000), (113265000, 67545000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW29:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW41:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW18:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW6:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW18:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW30:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW7:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW19:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW31:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW19:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW42:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW31:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(142535000, 77705000), (142535000, 87230000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW42:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW20:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW8:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW20:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(161585000, 58655000), (161585000, 58715000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW20:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW32:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(161585000, 58715000), (170415000, 67545000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW32:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW43:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW21:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW9:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW21:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW33:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW44:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW33:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW10:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW22:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW22:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(199685000, 58655000), (199685000, 58715000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW34:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW22:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(199685000, 58715000), (208515000, 67545000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW34:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW45:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW23:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW11:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW23:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW35:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW35:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(218735000, 77705000), (218735000, 77765000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW35:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW46:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 83: Collision ignored, track starts or ends at the end of another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 97: Adding track segment (F.Cu): [(218735000, 77765000), (227565000, 86595000)]
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW12:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW24:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW36:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW24:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad SW36:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW47:
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D2:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D2:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW1:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D1:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D2:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW2:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D3:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D3:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D4:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D4:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW3:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D3:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D4:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D5:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D5:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW4:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D6:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D6:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D5:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW5:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D6:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D7:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D7:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW6:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D8:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D8:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D7:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW7:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW8:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D8:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D9:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D9:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D10:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D10:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW9:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D9:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW10:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D11:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D11:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D10:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D12:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D12:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D11:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW11:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D13:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW13:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D14:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D14:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW14:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D15:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D15:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D14:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW15:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D15:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D16:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D16:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW16:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D17:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D17:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D16:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D18:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D18:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW17:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D17:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D18:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW18:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D19:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D19:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D20:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D20:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D19:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW19:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW20:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D20:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D21:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D21:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D22:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D22:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW21:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D21:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D22:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D23:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D23:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW22:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D24:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D24:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW23:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D23:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW25:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D25:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D26:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D26:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW26:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D27:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D27:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D26:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D27:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D28:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D28:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW27:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D29:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D29:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D28:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW28:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW29:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D30:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D30:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D29:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D30:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW30:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D31:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D31:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW31:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D32:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D32:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D31:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D33:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D33:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D32:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW32:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D33:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D34:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D34:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW33:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D35:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D35:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW34:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D34:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D35:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW35:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D36:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D36:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW37:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D38:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D38:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D37:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D39:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D39:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW38:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D38:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D39:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW39:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D40:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D40:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D41:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D41:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW40:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D40:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D41:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW41:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D42:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D42:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D43:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D43:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW42:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D42:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D44:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D44:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D43:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW43:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW44:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D44:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D45:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D45:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D45:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW45:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D46:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D46:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D47:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad D47:2
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 76: Track collide pad SW46:1
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 71: Pad D46:1 - collision ignored, track starts or ends in pad
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 87: Track collide with another track
+14:53:52 com_github_adamws_kicad-kbplacer.kbplacer_plugin_action 101: Could not add track segment due to detected collision
