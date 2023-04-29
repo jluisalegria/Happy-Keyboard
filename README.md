@@ -10,4 +10,4 @@ A 40% ortholinear keyboard (Planck type) using the RP2040 and KMK firmware.
 
 ## Photos
 
-![Happy Keyboard](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/keyboard.png)
+[Happy Keyboard](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/keyboard.png)
