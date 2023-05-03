@@ -19,7 +19,7 @@ A 40% (47 keys) ortholinear keyboard using the RP2040 and KMK firmware. Low cost
 - White keycaps with [pink theme](https://es.aliexpress.com/item/1005005120762702.html?spm=a2g0o.order_list.order_list_main.17.2e83194dM0664U&gatewayAdapt=glo2esp "pink theme").
 - Optional [Kailh Hotswap sockets](https://es.aliexpress.com/item/4001051840976.html?spm=a2g0o.cart.0.0.76d27a9dWyhGyQ&mp=1&gatewayAdapt=glo2esp "Kailh Hotswap sockets").
 
-### Enclosure
+## Enclosure
 - Aluminium or Acrylic. Bottom: 3 mm. Plate: 1.5 mm.
 - 6x M3X8 mm. standoffs.
 - 6x M3X6 mm. Screws.
