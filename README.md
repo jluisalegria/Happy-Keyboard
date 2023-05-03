@@ -3,7 +3,7 @@ A 40% (47 keys) ortholinear keyboard using the RP2040 and KMK firmware. Low cost
 
 ![Happy Keyboard](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/keyboard.png)
 
-### Features
+## Features
 - 2U space button
 - Dual switch footprint. Support direct solder or Kailh hostswap socket.
 - SMD diodes.
