@@ -25,7 +25,17 @@ A 40% (47 keys) ortholinear keyboard using the RP2040 and KMK firmware. Low cost
 - 6x M3X6 mm. Screws.
 - 6x M3X4 mm. screws.
 
-## Photos
+## Layers
+My keyboard language in my operating system is Spanish, and this are my keycode layers.
+
+In the Firmware/code.py are 4 layer programmed
+
+Layer 0
+Layer 1
+Layer 2
+Layer 3
+
+## More Photos
 ![Despliegue](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/Despliegue.jpg)
 ![switches](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/BrownSwitches.jpg)
 ![Keycaps](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/KeycapsLetters.jpg)
