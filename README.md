@@ -30,10 +30,14 @@ My keyboard language in my operating system is Spanish, and this are my keycode 
 
 In the Firmware/code.py are 4 layer programmed
 
-Layer 0
-Layer 1
-Layer 2
-Layer 3
+### Layer 0
+![L0](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/keycodes/Layer0.png)
+### Layer 1
+![L1](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/keycodes/Layer1.png)
+### Layer 2
+![L2](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/keycodes/Layer2.png)
+### Layer 3
+![L3](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/keycodes/Layer3.png)
 
 ## More Photos
 ![Despliegue](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/Despliegue.jpg)
