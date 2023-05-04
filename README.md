@@ -26,7 +26,7 @@ A 40% (47 keys) ortholinear keyboard using the RP2040 and KMK firmware. Low cost
 - 6x M3X4 mm. screws.
 
 ## Layers
-My keyboard language in my operating system is Spanish, and this are my keycode layers.
+My keyboard language is Spanish. Here my keycode layers.
 
 In the Firmware/code.py are 4 layer programmed
 
