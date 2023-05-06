@@ -1,5 +1,7 @@
 # Happy Keyboard
-A 40% (47 keys) ortholinear keyboard using the RP2040 and KMK firmware. Low cost design, with sandwich case.
+A 40% (47 keys) ortholinear keyboard using the Raspberry pi Pico and KMK firmware (powered by python). Low cost design, with sandwich case.
+No reset button or diconnect is necesary to update the keycodes. Only edit the code.py with any text editor, save the changes and that's it.
+The code lives on a "flash-drive" space of the Pico. Edit the keys on the go without DFU or other Devtool.
 
 ![Happy Keyboard](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/keyboard.png)
 
