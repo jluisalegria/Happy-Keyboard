@@ -16,7 +16,7 @@ The code lives on a "flash-drive" space in the Pico. Edit the keymap on the go w
 - Design with Kicad.
 
 ## Part List
-- 1x RP2040 in the form of the Raspberry Pi Pico. I select a version with USB-C [black version with USB C](https://es.aliexpress.com/item/1005003371056277.html?spm=a2g0o.order_list.order_list_main.11.2e83194dM0664U&gatewayAdapt=glo2esp "black version with USB C").
+- 1x RP2040 in the form of the Raspberry Pi Pico. I select a [version with USB-C](https://es.aliexpress.com/item/1005003371056277.html?spm=a2g0o.order_list.order_list_main.11.2e83194dM0664U&gatewayAdapt=glo2esp "black version with USB C").
 - 47x 1N4148 SOD-123
 - 47x [Mechanical switches](https://es.aliexpress.com/item/1005002378701948.html?spm=a2g0o.order_list.order_list_main.5.4b24194d63C1ud&gatewayAdapt=glo2esp "brown Outemu switches") (Cherry MX type).
 - Keycaps. I select white keycaps with [pink theme](https://es.aliexpress.com/item/1005005120762702.html?spm=a2g0o.order_list.order_list_main.17.2e83194dM0664U&gatewayAdapt=glo2esp "pink theme").
