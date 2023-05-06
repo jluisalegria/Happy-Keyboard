@@ -1,24 +1,25 @@
 # Happy Keyboard
-A 40% (47 keys) ortholinear keyboard using the Raspberry pi Pico and KMK firmware (powered by python). Low cost design, with sandwich case.
-No reset button or diconnect is necesary to update the keycodes. Only edit the code.py with any text editor, save the changes and that's it.
-The code lives on a "flash-drive" space of the Pico. Edit the keys on the go without DFU or other Devtool.
+A 40% (47 keys) ortholinear keyboard using the Raspberry pi Pico and KMK firmware (powered by python). Low cost design, with sandwich case.  
+  
+No reset button or disconnect is necesary to update the keymap. Only edit the code.py with any text editor, save the changes and that's it.
+The code lives on a "flash-drive" space in the Pico. Edit the keymap on the go without DFU or other Devtool.
 
 ![Happy Keyboard](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/Photos/keyboard.png)
 
 ## Features
-- 2U space button
+- Raspberry Pi Pico. Low cost and high availability.
+- 2U space button.
 - Dual switch footprint. Support direct solder or Kailh hostswap socket.
 - SMD diodes.
-- Raspberry Pi Pico form.
 - Programmable with [KMK Firmware](https://github.com/KMKfw/kmk_firmware "KMK Firmware"). Require [Circuitpython](https://circuitpython.org/board/vcc_gnd_yd_rp2040/ "Circuitpython") to run.
 - Assembly with M3 standoffs and screws. 
 - Design with Kicad.
 
 ## Part List
-- 1x RP2040 in the form of the Raspberry Pi Pico, but the chinesse [black version with USB C](https://es.aliexpress.com/item/1005003371056277.html?spm=a2g0o.order_list.order_list_main.11.2e83194dM0664U&gatewayAdapt=glo2esp "black version with USB C").
+- 1x RP2040 in the form of the Raspberry Pi Pico. I select a version with USB-C [black version with USB C](https://es.aliexpress.com/item/1005003371056277.html?spm=a2g0o.order_list.order_list_main.11.2e83194dM0664U&gatewayAdapt=glo2esp "black version with USB C").
 - 47x 1N4148 SOD-123
-- 47x [brown Outemu switches](https://es.aliexpress.com/item/1005002378701948.html?spm=a2g0o.order_list.order_list_main.5.4b24194d63C1ud&gatewayAdapt=glo2esp "brown Outemu switches") (Cherry MX type).
-- White keycaps with [pink theme](https://es.aliexpress.com/item/1005005120762702.html?spm=a2g0o.order_list.order_list_main.17.2e83194dM0664U&gatewayAdapt=glo2esp "pink theme").
+- 47x [Mechanical switches](https://es.aliexpress.com/item/1005002378701948.html?spm=a2g0o.order_list.order_list_main.5.4b24194d63C1ud&gatewayAdapt=glo2esp "brown Outemu switches") (Cherry MX type).
+- Keycaps. I select white keycaps with [pink theme](https://es.aliexpress.com/item/1005005120762702.html?spm=a2g0o.order_list.order_list_main.17.2e83194dM0664U&gatewayAdapt=glo2esp "pink theme").
 - Optional [Kailh Hotswap sockets](https://es.aliexpress.com/item/4001051840976.html?spm=a2g0o.cart.0.0.76d27a9dWyhGyQ&mp=1&gatewayAdapt=glo2esp "Kailh Hotswap sockets").
 
 ## Enclosure
@@ -31,7 +32,7 @@ The code lives on a "flash-drive" space of the Pico. Edit the keys on the go wit
 My keyboard language is Spanish. Here my keycode layers.
 
 Pre-programed 4 layers.
-Edit the Firmware/code.py as you prefer.
+Edit the Firmware/[code.py](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Firmware/code.py) as you prefer.
 
 ### Layer 0
 ![L0](https://github.com/jluisalegria/Happy-Keyboard/blob/master/Images/keycodes/Layer0.png)
