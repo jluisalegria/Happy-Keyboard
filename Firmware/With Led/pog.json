@@ -1,0 +1,86 @@
+{
+    "matrix": {
+        "rows": 4,
+        "cols": 12,
+        "diodeDirection": "COL2ROW"
+    },
+    "pins": {
+        "rows": [
+            "0",
+            "1",
+            "28",
+            "26"
+        ],
+        "cols": [
+            "27",
+            "10",
+            "20",
+            "19",
+            "18",
+            "17",
+            "16",
+            "15",
+            "14",
+            "13",
+            "12",
+            "11"
+        ]
+    },
+    "controller": "other",
+    "layouts": {
+        "keymap": [],
+        "labels": []
+    },
+    "currentKeymap": [
+        [
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS",
+            "KC.TRNS"
+        ]
+    ]
+}
