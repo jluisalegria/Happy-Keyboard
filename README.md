@@ -83,14 +83,34 @@ them directly to the Pico:
 | +5V | VBUS (pin 40) |
 | GND | any GND pin |
 
-Mind the current: 24 LEDs at full brightness draw more than a USB 2.0 port
-supplies. Lower `val_limit` in `code.py` if the keyboard disconnects or the
-colours look wrong.
+### How many LEDs can USB power?
+A WS2812B draws up to 60 mA at full white, and the Pico itself needs around
+50 mA. A USB 2.0 port supplies 500 mA in total, so the strip has roughly 400 mA
+to work with once some headroom is left.
 
-To change the LED count or the data pin, edit this line in `code.py`:
+What matters is the LED count multiplied by the brightness, not either one
+alone. These combinations all land near that 400 mA budget and are safe on any
+port:
+
+| LEDs | `val_limit` | Peak draw |
+| --- | --- | --- |
+| **24** | **64** (25%) | ~360 mA |
+| 12 | 128 (50%) | ~360 mA |
+| 7 | 255 (100%) | ~420 mA |
+
+The shipped firmware uses the first row - the full 24 LEDs, capped at 25%
+brightness. That is bright enough for underglow and leaves the port well inside
+spec. `val_limit` is a hard ceiling: the brightness keys on the NUM layer cannot
+push past it.
+
+Going above this budget will not damage anything, but the port will current-limit
+and the keyboard will disconnect or reboot mid-use. Raise `val_limit` only if you
+power the board from something other than the USB host.
+
+Both values live on one line in `code.py`, along with the data pin:
 
 ```python
-rgb = RGB(pixel_pin=board.GP23, num_pixels=24, val_limit=255, ...)
+rgb = RGB(pixel_pin=board.GP23, num_pixels=24, val_limit=64, ...)
 ```
 
 The lighting controls (on/off, hue, saturation, brightness and the animation

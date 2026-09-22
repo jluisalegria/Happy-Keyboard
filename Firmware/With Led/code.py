@@ -18,7 +18,10 @@ from kmk.extensions.media_keys import MediaKeys
 
 keyboard = KMKKeyboard()
 
-rgb = RGB(pixel_pin=board.GP23, num_pixels=24, val_limit=255, hue_default=252, sat_default=255, val_default=255,animation_speed=3)
+# val_limit caps the brightness, and with it the current the strip draws.
+# 24 LEDs at 25% brightness is about 360 mA, which stays inside the 500 mA
+# a USB 2.0 port provides. Raise it only if the board is powered externally.
+rgb = RGB(pixel_pin=board.GP23, num_pixels=24, val_limit=64, hue_default=252, sat_default=255, val_default=64, animation_speed=3)
 
 keyboard.modules.append(Layers())
 
